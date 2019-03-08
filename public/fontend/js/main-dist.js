@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".owl-slider").owlCarousel({autoplay:!0,items:1,loop:!0,margin:10,nav:!1}),$(".guide-slider").owlCarousel({autoplay:!0,margin:0,loop:!0,autoWidth:!0,items:3}),$(".gr-slider").owlCarousel({autoplay:!1,items:1,loop:!0,margin:10,nav:!1}),$(".js-provincial-single").select2(),$(".js-language-single").select2()});

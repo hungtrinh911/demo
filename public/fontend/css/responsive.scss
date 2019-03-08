@@ -1,0 +1,938 @@
+@media only screen and (max-width: 1199px) {
+	.guild-wrap {
+		background-size: 28% 100%;
+	}
+	.course-inroduce {
+		padding: 0 10px;
+	}
+	.informaton-wrap {
+		padding: 20px 10px;
+	}
+	.tourguide-info {
+		.tourguide-info-wrap {
+			padding: 30px 10px;
+		}
+	}
+	.training-course-wrap .training-course-list {
+		padding: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 991px) {
+	body { font-size: 14px;}
+	.seemore {
+		font-size: 14px;
+	}
+	.owl-slider {
+		.item {
+			.description {
+				top: 30%;
+				left: 50px;
+				width: 380px;
+				h2 {
+					font-size: 24px;
+					margin-bottom: 15px;
+				}
+				p {
+					font-size: 14px;
+				}
+			}
+		}
+		.owl-dots {
+			bottom: 5%;
+		}
+	}
+
+	.introduce {
+		margin-top: 0;
+		.introduce-wrap {
+			background: #fff;
+			padding: 30px 0;
+		}
+		.intro-item {
+			padding: 0 10px;
+			.item-icon {
+				margin-right: 15px;
+			}
+			.item-info {
+				h2 {
+					font-size: 18px;
+					margin-bottom: 20px;
+				}
+				p {
+					font-size: 14px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+
+	.guild-wrap {
+		background: #fff;
+		background-size: 100%;
+		.guide-profile {
+			opacity: 1;
+		}
+		.guide-title {
+			padding: 0 10px;
+			width: 100%;
+			margin-bottom: 20px;
+
+			h2 {
+				font-size: 24px;
+				margin: 0;
+				padding-bottom: 15px;
+			}
+		}
+
+		.guide-info {
+			width: 100%;
+
+			.guide-item {
+				margin-bottom: 10px;
+				padding: 0 10px;
+
+				img {
+					padding-right: 15px;
+				}
+
+				p {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.course-inner {
+		background: #f8f8f9;
+		padding: 30px 0;
+
+		.course-wrap  {
+			position: relative;
+			margin-bottom: 30px;
+
+			.course-item {
+				width: 100%;
+				position: static;
+				top: 50%;
+				right: 70px;
+				padding: 20px;
+				transform: translateY(0);
+				box-shadow: 0 1px 5px 0 #ccc;
+
+				img {
+					max-width: 150px;
+					max-height: 150px;
+					margin-right: 20px;
+				}
+
+				.course-info {
+					width: calc(100% - 170px);
+
+					h2 {
+						font-size: 24px;
+						font-weight: 900;
+						color: #1a1a1a;
+						margin-bottom: 20px;
+						max-height: 56px;
+						overflow: hidden;
+					}
+
+					p {
+						font-size: 14px;
+						font-weight: 500;
+						margin-bottom: 0;
+						color: #555;
+						max-height: 63px;
+						overflow: hidden;
+					}
+
+					.seemore {
+						position: absolute;
+						bottom: 20px;
+						right: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.course-inroduce {
+		padding: 0 10px;
+ 	 .item {
+			padding-right: 10px;
+			h2 {
+				font-size: 16px;
+				margin-bottom: 15px;
+				padding-top: 20px;
+			}
+
+			p {
+				max-height: 63px;
+				overflow: hidden;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.blog {
+		.article-item {
+			background: #fff;
+			padding: 20px 15px;
+		}
+
+		.article-info {
+			margin-top: 20px;
+
+			h2 {
+				font-size: 24px;
+			}
+
+			.category {
+				font-size: 16px;
+			}
+
+			.description {
+				margin-bottom: 10px;
+			}
+
+			.seemore {
+				position: relative;
+			}
+		}
+	}
+
+	.informaton-wrap {
+		padding: 20px 10px;
+
+		.about-us {
+			margin-bottom: 20px;
+
+			h2 {
+				font-size: 24px;
+				margin-bottom: 20px;
+			}
+
+			.description {
+				font-size: 15px;
+				margin-bottom: 30px;
+			}
+
+			.info-number {
+				.item {
+					h3 {
+						font-size: 42px;
+						font-weight: 900;
+						color: #60b158;
+						margin-bottom: 5px;
+					}
+
+					p {
+						font-size: 13px;
+						color: #7d7d7d;
+						text-transform: uppercase;
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.faqs {
+		h2 {
+			font-size: 24px;
+		}
+	}
+
+	.guide-wrap {
+		padding: 30px 10px;
+	}
+	.guide-info {
+		margin-top: 0;
+
+		h2 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		.description {
+			color: #fff;
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+
+		ul {
+			li {
+				position: relative;
+				color: #fff;
+				font-size: 14px;
+				margin-bottom: 10px;
+				padding-left: 25px;
+
+				&:before {
+					content: '';
+					display: block;
+					width: 14px;
+					height: 14px;
+					background: url('../images/border-arrow.png') no-repeat center center;
+					position: absolute;
+					left: 0;
+					top: 5px;
+				}
+			}
+		}
+	}
+	#footer {
+		padding: 30px 0;
+		background: #1e232b;
+	}
+
+	.bottom-bar {
+  	background: #1e232b;
+	}
+
+	.guidebanner-wrap {
+		background-size: cover;
+
+		.banner-title {
+			font-size: 24px;
+		}
+	}
+
+	.promotion-news {
+		.promotion-ads-item {
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		.promotion-list {
+			margin-bottom: 20px;
+			.item {
+				width: 50%;
+    		float: left;
+			}
+		}
+	}
+	.tourguide-info {
+		margin-bottom: 20px;
+
+		.tourguide-info-wrap {
+			padding: 20px 10px;
+
+			.tourguider-name {
+				font-size: 24px;
+			}
+
+			.tourguider-license {
+				font-size: 14px;
+				margin-bottom: 20px;
+			}
+
+			.info-nav {
+				.link-list {
+					width: 50%;
+
+					a {
+						font-size: 16px;
+						padding-left: 20px;
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.guide-skill {
+		margin-bottom: 20px;
+
+		.language-wrap {
+			ul {
+				li {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.tour-location {
+		margin-bottom: 20px;
+	}
+
+
+	.job-search-wrap{
+		.job-search-form-header {
+			margin-bottom: 110px;
+			margin-left: 10%;
+
+			h2 {
+				font-size: 24px;
+			}
+
+			h4 {
+				font-size: 14px;
+			}
+		}
+
+		.job-search-form {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			padding: 10px;
+		}
+	}
+	.training-course-search-wrap .training-course-search-form {
+		width: 70%;
+	}
+	.training-course-wrap .course-list .item {
+		width: calc(100% / 3);
+	}
+	.training-course-wrap .course-list .item .item-info {
+		background: transparent;
+		padding-left: 0;
+
+		&:before {
+			content: '';
+			display: none;
+		}
+	}
+	.training-course-branch-wrap .branch-address {
+		padding: 20px;
+	}
+	.training-course-branch-wrap .branch-banner-wrap {
+		text-align: center;
+	}
+	.training-course-branch-wrap .branch-banner-wrap > a {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.owl-slider {
+		.item {
+			.description {
+				display: none;
+			}
+		}
+	}
+	.introduce {
+		margin-top: 0;
+		.introduce-wrap {
+			padding: 20px 0;
+		}
+		.intro-item {
+			margin-bottom: 20px;
+		}
+	}
+
+	.guild-wrap {
+		.guide-profile  {
+			margin-bottom: 20px;
+			padding-top: 10px;
+		}
+	}
+	.course-inner {
+		background: #f8f8f9;
+		.course-wrap  {
+			margin-bottom: 2s0px;
+			.course-item {
+				padding: 10px;
+				img {
+					max-width: 100%;
+					max-height: 100%;
+					margin-right: 0;
+					display: block;
+					margin: 0 auto 20px;
+				}
+
+				.course-info {
+					width: 100%;
+
+					h2 {
+						font-size: 24px;
+					}
+
+					p {
+						font-size: 14px;
+						max-height: 63px;
+					}
+
+					.seemore {
+						position: relative;
+						bottom: 0;
+						right: 0;
+					}
+				}
+			}
+		}
+	}
+	.course-inroduce {
+		padding: 0 10px;
+ 	 .item {
+			width: 100%;
+			margin-bottom: 20px;
+			padding-right: 10px;
+			h2 {
+				font-size: 16px;
+				margin-bottom: 15px;
+				padding-top: 20px;
+			}
+
+			p {
+				max-height: 63px;
+				overflow: hidden;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.blog {
+		.article-item {
+			box-shadow: 0 1px 7px 2px #ccc;
+		}
+	}
+
+	.informaton-wrap {
+		padding: 20px 10px;
+
+		.about-us {
+			margin-bottom: 20px;
+
+			h2 {
+				font-size: 24px;
+				margin-bottom: 20px;
+			}
+
+			.description {
+				font-size: 15px;
+				margin-bottom: 30px;
+			}
+
+			.info-number {
+				.item {
+					text-align: center;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+
+	.faqs {
+		.card-header {
+			.btn-link {
+				white-space: normal;
+				word-wrap: break-word
+			}
+		}
+		h2 {
+			font-size: 24px;
+		}
+	}
+
+	.bottom-bar {
+		padding: 10px 0;
+		.copyright {
+			line-height: 1.41;
+		}
+
+		.social {
+			margin-top: 10px;
+			margin-bottom: 0;
+
+			li {
+				a {
+					display: inline-block;
+					width: 42px;
+					height: 42px;
+					line-height: 42px;
+					background: #3f454f;
+					border-radius: 100%;
+					text-align: center;
+				}
+
+				&:not(:last-child) {
+					a {
+						margin-right: 10px;
+					}
+				}
+
+				&:hover {
+					a {
+						background: #94989d;
+					}
+				}
+			}
+		}
+	}
+	.about-us-wrap {
+		padding: 20px 0;
+		.about-us {
+			h2 {
+				font-size: 24px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+	.myteam-wrap {
+		padding: 20px 0;
+		.about-myteam {
+			h2 {
+				font-size: 24px;
+				margin-bottom: 15px;
+			}
+			.myteam-list {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				.item {
+					width: 44%;
+					margin-right: 12%;
+					margin-bottom: 20px;
+					&:nth-child(2n+2) {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+	.blog-detail-wrap {
+		.related-news {
+			.related-news-list {
+				.item {
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.faqs-banner-wrap {
+		background-size: cover;
+	}
+
+	.faqs-content {
+		background: #f7f7f7;
+	}
+
+	.collapse-body {
+		padding: 20px;
+		.personnal-info-content {
+			flex-direction: column;
+			ul {
+				width: 100%;
+				li {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+
+	.guide-skill {
+		margin-bottom: 0;
+		.d-flex {
+			flex-direction: column;
+		}
+
+		.job-skill-wrap,
+		.language-wrap,
+		.role-wrap {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+	}
+
+	.comment-box {
+		#comment-form {
+			.input-form {
+				width: 100%;
+			}
+		}
+	}
+	.share-block {
+		.share-thinking {
+			.share-thinking-content {
+				.point {
+					font-size: 14px;
+					span {
+						width: 70px;
+					}
+				}
+			}
+
+			.share-rate {
+				flex-direction: column;
+				li {
+					width: 100%;
+					margin-bottom: 10px;
+					p {
+						font-size: 14px;
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+	.tour-location {
+		.tour-location-content {
+			flex-direction: column;
+		}
+		.select-location {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+	}
+	.tourguide-info .tourguide-info-wrap .info-nav {
+		flex-direction: column;
+	}
+	.tourguide-info .tourguide-info-wrap .info-nav .link-list {
+		width: 100%;
+	}
+	.tourguide-info .tourguide-info-wrap .tourguide-des {
+		flex-direction: column;
+	}
+	.tourguide-info .tourguide-info-wrap .tourguide-des .avatar,
+	.tourguide-info .tourguide-info-wrap .tourguide-des .info {
+		width: 100%;
+	}
+	.tourguide-info .tourguide-info-wrap .tourguide-des .avatar {
+		margin-bottom: 20px;
+	}
+	.job-search-wrap{
+		background: #f7f7f7;
+		.job-search-form-header {
+			margin-bottom: 110px;
+			margin-left: 10%;
+
+			h2 {
+				font-size: 24px;
+			}
+
+			h4 {
+				font-size: 14px;
+			}
+		}
+
+		.job-search-form {
+			width: 100%;
+			position: static;
+			bottom: 0;
+			padding: 10px;
+			margin-top: -110px;
+			.job-search-form-header {
+				margin: 0 0 20px 0;
+				left: 0;
+			}
+		}
+
+		.form-group {
+			flex-direction: column;
+			position: relative;
+			.btn-action {
+				width: 100%;
+				button {
+					width: 100%;
+				}
+			}
+
+			.text-search,
+			.select-job,
+			.select-place {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.job-collection-wrap .new-jobs-list .item {
+		flex-direction: column;
+	}
+	.job-collection-wrap .new-jobs-list .job-info .job-desc {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.job-collection-wrap .new-jobs-list .job-info {
+		width: 100%;
+	}
+	.job-collection-wrap .new-jobs-list .job-info .job-desc {
+		width: auto;
+	}
+	.job-collection-wrap .new-jobs-list .job-action {
+		width: 100%;
+		flex-direction: row;
+		align-items: center;
+	}
+	.training-course-search-wrap .training-course-search-form {
+		width: 100%;
+	}
+	.training-course-wrap .training-course-list {
+		margin-top: 0;
+	}
+	.training-course-search-wrap {
+		background: url('../images/bg-form-search.png') no-repeat center center;
+		background-size: cover;
+		height: 250px;
+	}
+	.training-course-search-wrap .img-fluid {
+		display: none;
+	}
+	.training-course-search-wrap .training-course-search-form {
+		left: 0;
+		transform: translateY(-50%);
+		padding: 10px;
+
+		.form-group {
+			flex-direction: column;
+			.form-control {
+				margin-bottom: 10px;
+				background: #fff;
+			}
+		}
+	}
+	.training-course-search-wrap .training-course-search-form h2 {
+		font-size: 18px;
+	}
+	.training-course-search-wrap .training-course-search-form button {
+		margin-left: 0;
+	}
+	.training-course-wrap .training-course-list {
+		padding: 20px 10px;
+	}
+	.training-course-wrap {
+		padding-bottom: 20px;
+	}
+	.training-course-wrap .training-course-heading h2 {
+		font-size: 18px;
+	}
+	.training-course-wrap .training-course-heading p {
+		font-size: 14px;
+	}
+	.training-course-wrap .training-course-heading {
+		margin-bottom: 10px;
+	}
+	.training-course-wrap .course-list .item:not(:last-child) {
+		margin-right: 0;
+	}
+	.training-course-wrap .course-list {
+		flex-direction: column;
+
+		.item {
+			width: 100%;
+			margin-bottom: 20px;
+			box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.1)
+		}
+	}
+
+	.training-course-branch-wrap {
+		padding: 20px 0;
+	}
+	.training-course-branch-wrap .branch-address .branch-heading {
+		margin: 0 0 20px 0;
+	}
+	.training-course-branch-wrap .branch-address .branch-heading h2 {
+		font-size: 18px;
+	}
+	.training-course-branch-wrap .branch-address .branch-heading p {
+		font-size: 14px;
+	}
+	.training-course-branch-wrap .branch-address .branch-location .item {
+		width: 100%;
+	}
+	.training-course-branch-wrap .branch-address .branch-location .item .location {
+		margin-bottom: 0;
+	}
+
+	.training-course-comment-wrap {
+		padding: 20px 0;
+	}
+	.training-course-comment .owl-comment-slider .item {
+		flex-direction: column;
+	}
+	.training-course-comment .owl-comment-slider .item .client-icon {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.training-course-comment .owl-comment-slider .item .client-icon .client-icon-img {
+		margin: 0 auto;
+	}
+	.training-course-comment .owl-comment-slider .item .client-comment {
+		width: 100%;
+		padding-left: 0;
+	}
+	.training-course-comment .owl-comment-slider .owl-dots {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.promotion-news {
+		.promotion-ads-item {
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		.promotion-list {
+			margin-bottom: 20px;
+			.item {
+				width: 100%;
+    		float: left;
+			}
+		}
+	}
+	.blog-detail-wrap {
+		.related-news {
+			.related-news-list {
+				.item {
+					width: 100%;
+				}
+			}
+		}
+	}
+	.job-collection-wrap .new-jobs-list .job-info .job-img {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto 20px;
+	}
+	.job-collection-wrap .new-jobs-list .job-info .job-desc {
+		margin-left: 0;
+	}
+	.job-collection-wrap .new-jobs-list .job-action {
+		flex-direction: column;
+	}
+	.job-collection-wrap .new-jobs-list .job-action .addfavor {
+		margin-bottom: 20px;
+	}
+	.job-collection-wrap .new-jobs-list .job-info .job-desc .tag-list a {
+		margin-bottom: 5px;
+	}
+	.pagination {
+		flex-wrap: wrap;
+	}
+	.top-employer-wrap .top-employer-list .item {
+		width: calc(98% / 2);
+	}
+	.top-employer-wrap .top-employer-list .item:nth-child(2n+2) {
+		margin-right: 0;
+	}
+	.top-employer-wrap .top-employer-list .item:nth-child(3n+3) {
+		margin-right: 1%;
+	}
+
+	.blog-main-wrap .blog-list {
+		flex-direction: column;
+	}
+	.blog-main-wrap .blog-list .article {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.seeall {
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) {
+	.container {
+    max-width: 1170px;
+	}
+}
